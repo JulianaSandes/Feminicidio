@@ -1,19 +1,19 @@
 import Card from 'react-bootstrap/Card';
-import img from '../assets/grafico1.png';
+import img from '../assets/graficoCidades.png';
 
-function Cards() {
+function CardCidades() {
   
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} alt="PC" />
       <Card.Body>
-        <Card.Title>Número de vítimas</Card.Title>
+        <Card.Title>Número de vítimas em cada cidade</Card.Title>
         <Card.Text>
-        Grafico mostra o crescimento do feminicidio de 2015 á 2022.
+        Grafico mostra o número do feminicidio em cidades de São Paulo.
         </Card.Text>
       </Card.Body>
     </Card>
   );
 }
 
-export default Cards;
+export default CardCidades;

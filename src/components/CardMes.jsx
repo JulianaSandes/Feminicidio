@@ -1,19 +1,19 @@
 import Card from 'react-bootstrap/Card';
-import img from '../assets/grafico1.png';
+import img from '../assets/graficoMes.png';
 
-function Cards() {
+function CardMes() {
   
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} alt="PC" />
       <Card.Body>
-        <Card.Title>Número de vítimas</Card.Title>
+        <Card.Title>Número de mortes em cada mês.</Card.Title>
         <Card.Text>
-        Grafico mostra o crescimento do feminicidio de 2015 á 2022.
+        Grafico mostra os meses que mais acontecem casos.
         </Card.Text>
       </Card.Body>
     </Card>
   );
 }
 
-export default Cards;
+export default CardMes;
