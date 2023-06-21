@@ -1,0 +1,19 @@
+{
+    "products": [
+    {
+    "id": 1,
+    "name": "PC-GAMER",
+    "price": 4000
+    },
+    {
+    "id": 2,
+    "name": "MOUSE",
+    "price": 200
+    },
+    {
+    "id": 3,
+    "name": "PC",
+    "price": 2000
+    }
+    ]
+}
